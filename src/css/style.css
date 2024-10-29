@@ -1,0 +1,32 @@
+body {
+  background-color: #fffaf4;
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav {
+  margin-bottom: 20px;
+}
+ul {
+  padding: 0px;
+  list-style-type: none;
+  color: black;
+  text-align: center;
+}
+li {
+  display: inline;
+}
+li:last-child {
+  margin-right: 0px;
+}
+a {
+  margin-right: 100px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+.about {
+  height: 640px;
+  background: url(../img/backgroundimg.jpg) center/contain no-repeat;
+}
