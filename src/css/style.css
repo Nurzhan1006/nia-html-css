@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: #fffaf4;
+  background-color: rgb(255, 250, 244);
 }
 header {
   text-align: center;
@@ -29,4 +32,35 @@ a {
 .about {
   height: 640px;
   background: url(../img/backgroundimg.jpg) center/contain no-repeat;
+  position: relative;
+}
+.about-gradient {
+  width: 420px;
+  height: 190px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 250, 244, 0.8) 100%
+  );
+  position: absolute;
+  top: 349px;
+  left: 730px;
+  padding-top: 15px;
+}
+.about-gradient-border {
+  width: 390px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: left;
+  padding: 17px 0 0 9px;
+}
+.about-gradient-border-h1 {
+  font-size: 36px;
+  margin: 0 auto;
+  margin-bottom: 9px;
+}
+.about-gradient-border-p {
+  font-size: 12px;
+  margin: 0 auto;
 }
