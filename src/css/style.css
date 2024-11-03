@@ -33,6 +33,7 @@ a {
   height: 640px;
   background: url(../img/backgroundimg.jpg) center/contain no-repeat;
   position: relative;
+  margin-bottom: 20px;
 }
 .about-gradient {
   width: 420px;
@@ -43,8 +44,8 @@ a {
     rgba(255, 250, 244, 0.8) 100%
   );
   position: absolute;
-  top: 349px;
-  left: 730px;
+  top: 54%;
+  left: 50%;
   padding-top: 15px;
 }
 .about-gradient-border {
@@ -52,7 +53,7 @@ a {
   height: 160px;
   border: 1px solid black;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   padding: 17px 0 0 9px;
 }
 .about-gradient-border-h1 {
@@ -62,5 +63,33 @@ a {
 }
 .about-gradient-border-p {
   font-size: 12px;
+  margin: 0 auto;
+}
+.assortment {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.assortment img {
+  width: 290px;
+  height: 290px;
+  margin-right: 76px;
+}
+.assortment img:last-child {
+  margin-right: 0px;
+}
+.assortment-bag {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 96px;
+}
+.red {
+  color: #f15b40;
+}
+.assortment-bag-text {
+  width: 1000px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0px;
   margin: 0 auto;
 }
