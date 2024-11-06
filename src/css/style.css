@@ -132,7 +132,10 @@ a {
 }
 .call-data {
   font-size: 25px;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 .map {
   text-align: center;
